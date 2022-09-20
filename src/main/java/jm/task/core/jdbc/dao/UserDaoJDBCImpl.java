@@ -12,13 +12,6 @@ import java.util.List;
 
 public class UserDaoJDBCImpl implements UserDao {
 
-    private UserDaoJDBCImpl() {
-    }
-
-    public static UserDaoJDBCImpl getInstance() { // реализация синлтона
-        return INSTANCE;
-    }
-
     private static final String queryRemoveUserById = """
             DELETE FROM util_users
             WHERE id = ?
