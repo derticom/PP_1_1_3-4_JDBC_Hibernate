@@ -9,7 +9,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-
+/*
 public class UserDaoJDBCImpl implements UserDao {
 
     private static final String queryRemoveUserById = """
@@ -105,3 +105,4 @@ public class UserDaoJDBCImpl implements UserDao {
         return userList;
     }
 }
+*/
